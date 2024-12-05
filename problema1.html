@@ -41,10 +41,12 @@
         button:hover {
             background-color: #8b0000;
         }
-        .solution-link {
-            margin-top: 20px;
-            display: block;
+        .link-container {
+            margin-top: 30px;
             text-align: center;
+        }
+        .solution-link {
+            margin: 0 10px;
             color: #b22222;
             text-decoration: none;
         }
@@ -77,8 +79,10 @@
 
     <p id="result" style="margin-top: 10px;"></p>
 
-    <a href="soluzione1.html" class="solution-link">🎁 Vai alla soluzione</a>
-    <a href="index.html" class="solution-link">🏠 Ritorna alla home</a>
+    <div class="link-container">
+        <a href="soluzione1.html" class="solution-link">🎁 Vai alla soluzione</a>
+        <a href="index.html" class="solution-link">🏠 Ritorna alla home</a>
+    </div>
 
     <script>
         function checkAnswer() {
